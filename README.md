@@ -7,7 +7,7 @@ Abstract. One  of  the  added  values  of  long  running  and  large  scalecolla
 The accepted version can be accesed vis the [publisher web site](https://link.springer.com/chapter/10.1007/978-3-030-62327-2_1)
 
 # Repository folders
-This repository includes almost the material related to the development of Jena Data Analysis and Summarization tool. It includes the following:
+This repository includes almost the material related to the development of Jena Dataset Summarization and Synthesis (JeDaSS) tool. It includes the following:
 * Original hypotheses;
 
 * The code  
