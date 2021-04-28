@@ -49,7 +49,7 @@ Under the postman collection folder, you may find also a dummy data to test the 
 a json object under  the structure :
 ```json
 {
-    " PN-Datum ": { 
+    "PN-Datum": { 
         "input": {
             "unit": "none",
             "entity": "http://purl.obolibrary.org/obo/OBI_0000747",
@@ -76,20 +76,20 @@ a json object under  the structure :
         "predicted_class": " ; 0 ; 2 ; 4 ; 9",
         "onto_match": [ 
             "['http://purl.obolibrary.org/obo/OBI_0000747', 'http://purl.obolibrary.org/obo/OBI_0100051', 'http://purl.obolibrary.org/obo/BFO_0000040', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasurementType', '_:b31', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measuresCharacteristic']",
-            "['http://purl.obolibrary.org/obo/OBI_0000747', 'http://purl.obolibrary.org/obo/OBI_0100051', 'http://purl.obolibrary.org/obo/BFO_0000040', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasurementType', '_:b33', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measuresUsingProtocol']",
-        ]
+            "['http://purl.obolibrary.org/obo/OBI_0000747', 'http://purl.obolibrary.org/obo/OBI_0100051', 'http://purl.obolibrary.org/obo/BFO_0000040', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasurementType', '_:b33', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#measuresUsingProtocol']"
+        ],
         "onto_no_path": [ 
             "http://purl.obolibrary.org/obo/ENVO_01000391",
-            "http://purl.obolibrary.org/obo/ENVO_00002238",
+            "http://purl.obolibrary.org/obo/ENVO_00002238"
         ],
         "onto_no_node": [],
         "db_match": [ 
             "['http://purl.obolibrary.org/obo/OBI_0000747', 'http://purl.obolibrary.org/obo/OBI_0100051', 'http://purl.obolibrary.org/obo/BFO_0000040', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Measurement', '_:b5', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#MeasuredValue']",
-            "['http://purl.obolibrary.org/obo/OBI_0000747', 'http://purl.obolibrary.org/obo/OBI_0100051', 'http://purl.obolibrary.org/obo/BFO_0000040', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Standard']",
+            "['http://purl.obolibrary.org/obo/OBI_0000747', 'http://purl.obolibrary.org/obo/OBI_0100051', 'http://purl.obolibrary.org/obo/BFO_0000040', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Entity', 'http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#Standard']"
         ],
         "db_no_path": [ 
             "http://purl.obolibrary.org/obo/PATO_0000146",
-            "http://purl.obolibrary.org/obo/ENVO_09100001",
+            "http://purl.obolibrary.org/obo/ENVO_09100001"
         ],
         "db_no_node": [],
         "onto_target_file": [
@@ -98,9 +98,9 @@ a json object under  the structure :
             "prediction\\entities_domain\\A02.csv",
             "prediction\\entities_domain\\C03.csv"
         ]
-    }
-    {
-        ...
+    },
+    "data attribute name - 2": {
+        
     }
 }
 ```
