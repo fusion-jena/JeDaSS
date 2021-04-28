@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "976772e4-f87a-4836-8004-96870fcb8b61",
+		"name": "prediction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Data/tmp_42.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/predict",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44345/asm/DataSetSummary/classificationAsync?ds=79&flag=&operation=prepare_only",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						"asm",
+						"DataSetSummary",
+						"classificationAsync"
+					],
+					"query": [
+						{
+							"key": "ds",
+							"value": "79"
+						},
+						{
+							"key": "flag",
+							"value": ""
+						},
+						{
+							"key": "operation",
+							"value": "prepare_only"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

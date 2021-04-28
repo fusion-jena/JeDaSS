@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-cors = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-flask = "*"
+requests = "*"
+pylint = "*"
+pandas = "*"
+sklearn = "*"
+fuzzywuzzy = "*"
+numpy = "~=1.18.1"
+python-levenshtein = "*"
+networkx = "*"
+torch = "*"
+torchvision = "*"
+pyyaml = "*"
+openpyxl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

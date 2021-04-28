@@ -1,0 +1,13 @@
+API:
+  PREDICTION_SUBJECT_RELATION_OBJECT: \..\prediction\subject_relation_object.csv
+  PREDICTION_DS_PROJECT: \..\prediction\ds_project.txt
+  PREDICTION_ANNOTATION_KNOWLEDGE_GRAPH: \..\prediction\annotation_knowledge_graph.csv
+  PREDICTION_OBSERVATION_KNOWLEDGE: \..\prediction\observation_knowledge.csv
+
+  ARIAL_FONT_PATH: \..\prediction\/Arial.ttf
+
+  ROOT_FOLDER_FOR_UPLOADS: \..\uploads\
+  TORCH_CLASSIFICATION_MODEL: \..\prediction\classify_by_project_100_epochs.pth
+  KEYWORD_MAP_GLOB: \..\prediction\entities_domain\*.csv
+  USER_ADMIN: hamdihamed
+  GROUP_ADMIN: hamdihamed
