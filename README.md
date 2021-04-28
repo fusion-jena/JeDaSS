@@ -34,5 +34,6 @@ and Synthesis (JeDaSS) tool. It includes the following:
     - contains the requested datasets for the API where they are saved.
     
 # Usage
-view API readme file to have much more information on the usuage [link](API/README.md)
+view [API readme](API/README.md) file to have much more information on the usuage.
+
 Acknowledgments: This work has been mostly funded by the Deutsche Forschungsgemeinschaft (DFG) as part of the CRC 1076 AquaDiva [http://www.aquadiva.uni-jena.de/]
