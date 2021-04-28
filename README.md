@@ -7,11 +7,32 @@ Abstract. One  of  the  added  values  of  long  running  and  large  scalecolla
 The accepted version can be accesed vis the [publisher web site](https://link.springer.com/chapter/10.1007/978-3-030-62327-2_1)
 
 # Repository folders
-This repository includes almost the material related to the development of Jena Dataset Summarization and Synthesis (JeDaSS) tool. It includes the following:
-* Original hypotheses;
+This repository includes almost the material related to the development of Jena Dataset Summarization 
+and Synthesis (JeDaSS) tool. It includes the following:
 
-* The code  
-* The preliminary outcome .
+* folder API :
+    - API.py class to run the server endpoint (flask):
+        - set FLASK_APP=API\API.py
+        - flask run
+    - preprocessor_andAnalyser_lib:
+        - main class containing the hypothesis and the workflow.
+    - config.yaml :
+        - configuration files for relative paths
+    - data_preparation.py : 
+        - processing of image generation.
+    - model.py:
+        - resnet module loader.
+    - helper_lib.py:
+        helper scripts to read the config file and some other methods.
+    - Postman collection folder : 
+        - Postman API test for the endpoints provided by the flask server and the AquaDiva dataset Extractor.
+    
+* folder Prediction : 
+    - contains the tuples and keywords used to explore the AquaDIva ontology as a graph connecting the classes with a set of relationship : entity - relation - entity.
+
+* folder uploads:
+    - contains the requested datasets for the API where they are saved.
+    
 # Usage
 
 Acknowledgments: This work has been mostly funded by the Deutsche Forschungsgemeinschaft (DFG) as part of the CRC 1076 AquaDiva [http://www.aquadiva.uni-jena.de/]
