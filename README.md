@@ -14,7 +14,7 @@ and Synthesis (JeDaSS) tool. It includes the following:
     - API.py class to run the server endpoint (flask):
         - set FLASK_APP=API\API.py
         - flask run
-    - preprocessor_andAnalyser_lib:
+    - ClassifierSemantic:
         - main class containing the hypothesis and the workflow.
     - config.yaml :
         - configuration files for relative paths

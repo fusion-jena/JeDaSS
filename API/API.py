@@ -3,7 +3,7 @@ import os
 import redirect as redirect
 import self as self
 
-from preprocessor_andAnalyser_lib import preprocessor_andAnalyser_lib
+from ClassifierSemantic import ClassifierSemantic
 from flask import Flask, request, jsonify # Import the flask web server
 from werkzeug.utils import secure_filename
 
@@ -23,7 +23,7 @@ def predict():
             #flash('No selected file')
             return redirect(request.url)
         if file :
-            ppa = preprocessor_andAnalyser_lib();
+            ppa = ClassifierSemantic();
 
             filename = secure_filename(file.filename)
             file.save(os.path.join(ppa.root_folder_for_uploads, filename))

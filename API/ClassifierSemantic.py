@@ -16,7 +16,7 @@ import networkx as nx
 sys.setrecursionlimit(1000000)
 #sys.path.append('/usr/lib/python3/dist-packages')
 
-class preprocessor_andAnalyser_lib:
+class ClassifierSemantic:
 
     def __init__(self):
         self.home = os.path.dirname(__file__)

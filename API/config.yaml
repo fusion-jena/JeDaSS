@@ -7,7 +7,7 @@ API:
   ARIAL_FONT_PATH: \..\prediction\/Arial.ttf
 
   ROOT_FOLDER_FOR_UPLOADS: \..\uploads\
-  TORCH_CLASSIFICATION_MODEL: \..\prediction\classify_by_project_100_epochs.pth
+  TORCH_CLASSIFICATION_MODEL: \..\prediction\weights.pth
   KEYWORD_MAP_GLOB: \..\prediction\entities_domain\*.csv
   USER_ADMIN: hamdihamed
   GROUP_ADMIN: hamdihamed

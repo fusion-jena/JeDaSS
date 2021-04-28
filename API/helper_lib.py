@@ -38,7 +38,7 @@ def get_seriesof_nulls_perColumn(x):
     return x.isnull().sum() 
 
 
-# used in prediction() function inside preprocessor_andAnalyser_lib.py 
+# used in prediction() function inside ClassifierSemantic.py
 # prediction() is called from the API 
 class NpEncoder(json.JSONEncoder):
     def default(self, obj):
