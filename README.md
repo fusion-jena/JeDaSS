@@ -34,6 +34,9 @@ and Synthesis (JeDaSS) tool. It includes the following:
     - contains the requested datasets for the API where they are saved.
 
 # Environment setup 
+ * used Hardware: 
+ * Used data: 
+ 
   
 # Usage
 view [API readme](API/README.md) file to have much more information on the usuage.
