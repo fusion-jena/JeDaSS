@@ -1,6 +1,5 @@
 API:
   PREDICTION_SUBJECT_RELATION_OBJECT: \..\prediction\subject_relation_object.csv
-  PREDICTION_DS_PROJECT: \..\prediction\ds_project.txt
   PREDICTION_ANNOTATION_KNOWLEDGE_GRAPH: \..\prediction\annotation_knowledge_graph.csv
   PREDICTION_OBSERVATION_KNOWLEDGE: \..\prediction\observation_knowledge.csv
 

@@ -1,4 +1,4 @@
-# Categotical Analysis API
+# JeDaSS API
 
 ## Aim: 
 The API has been designed to process semantic analysis using deep learning algorithm for classification.
@@ -106,6 +106,10 @@ The API consists of 3 main files: API.py, data_preparation.py and ClassifierSema
    Main API file, contains the API endpoint.
 2. ClassifierSemantic.py: 
    contains the methods seperated step by step to classify and/or run semantic linking.
+   - convert file to data frame
+   - generate images per row from the data frame
+   - classify the images to the scientific discipline that are mostly connected to the dataset.
+   - process the semantic exploration using the generated semantic tuples of each project based on the classifier's results.
 3. data_preparation.py:
    contains the methods to generate images per tuples in the data frame.
 

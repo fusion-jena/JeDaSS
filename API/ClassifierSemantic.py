@@ -23,7 +23,6 @@ class ClassifierSemantic:
         self.config = helper.read_yaml(self.home+"/config.yaml")
         
         self.all_data = pd.read_csv(self.home+self.config['API']['PREDICTION_SUBJECT_RELATION_OBJECT'], index_col=False, engine='python', encoding='utf-8')
-        self.lab = pd.read_csv(self.home+self.config['API']['PREDICTION_DS_PROJECT'], index_col=False, engine='python', encoding='utf-8')
         self.all_data_Annot = pd.read_csv(self.home+self.config['API']['PREDICTION_ANNOTATION_KNOWLEDGE_GRAPH'], index_col=False, engine='python', encoding='utf-8', delimiter=";")
         self.all_Obs = pd.read_csv(self.home+self.config['API']['PREDICTION_OBSERVATION_KNOWLEDGE'], index_col=False, engine='python', encoding='utf-8')
 

@@ -28,7 +28,16 @@ and Synthesis (JeDaSS) tool. It includes the following:
         - Postman API test for the endpoints provided by the flask server and the AquaDiva dataset Extractor.
     
 * folder Prediction : 
-    - contains the tuples and keywords used to explore the AquaDIva ontology as a graph connecting the classes with a set of relationship : entity - relation - entity.
+    - folder entities_domain:
+        - contains the tuples and keywords used to explore the AquaDIva ontology as a graph connecting the classes 
+          with a set of relationship : entity - relation - entity.
+        - every csv file presents the semantic entities, characteristics and relationship that covers one Topic. 
+        In our case, we have named 12 scientific following the Groups that the [CRC AquaDiva](http://www.aquadiva.uni-jena.de/Projects.html) has.
+    - other files are : 
+        - annotation_knowledge_graph.csv : reflects the annotation of the data attributes in respect of the dataset.
+        - observation_knowledge.csv : reflects the annotation of the data attributes in respect of the contextualizing semantic class.
+        - subject_relation_object.csv : the AquaDiva ontology processed as a tuple of entities connected through the relationships defined in the ontology.
+        - weights.pth : the weights of the ResNet18 network used for classification.
 
 * folder uploads:
     - contains the requested datasets for the API where they are saved.
