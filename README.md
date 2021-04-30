@@ -32,7 +32,9 @@ and Synthesis (JeDaSS) tool. It includes the following:
 
 * folder uploads:
     - contains the requested datasets for the API where they are saved.
-    
+
+# Environment setup 
+  
 # Usage
 view [API readme](API/README.md) file to have much more information on the usuage.
 
